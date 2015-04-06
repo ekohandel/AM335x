@@ -1,7 +1,7 @@
 /*
  * UART0 Peripheral
  */
-.section text
+.text
 uart0_init:
   M_MOV32 R0, UART0_BASE_ADDR
 

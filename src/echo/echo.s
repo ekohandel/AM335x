@@ -19,4 +19,3 @@ _start:
   CALL uart0_read_byte
   CALL uart0_write_byte
   B 1b
-

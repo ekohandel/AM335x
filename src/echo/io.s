@@ -1,7 +1,7 @@
 /*
  * IO mapping module
  */
-.section text
+.text
 io_init:
   CALL io_uart0_init
   BX   LR

@@ -1,7 +1,7 @@
 /*
  * Clock Manager Module
  */ 
-.section text
+.text
 cm_init:
   CALL cm_wkup_uart_init
   BX   LR
