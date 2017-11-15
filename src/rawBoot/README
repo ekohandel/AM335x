@@ -1,6 +1,0 @@
-The Makefile generates an image that can be used for a raw boot.
-The image file (*.img) can be used to generate a bootable SD card:
-
-The mkAM355xImg tool is in the tools directory with its own Makefile
-
-dd if=*.img of=<dev> 
